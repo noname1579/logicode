@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import logo from './../../public/logo.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
@@ -10,7 +11,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center py-2">
             <a href='#' className="flex items-center space-x-2">
               <div className="w-8 h-8 md:w-14 md:h-14 rounded-lg flex items-center justify-center">
-                <img src="../../public/logo.png" />
+                <img src={logo} />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
                 LogiCode
@@ -25,12 +26,9 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex items-center space-x-4">
-              <button className="px-6 py-2 text-blue-600 hover:text-blue-700 transition-colors">
-                Войти
-              </button>
-              <button className="px-6 py-2 bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-lg hover:shadow-lg transition-all">
+              <a href='#contact' className="px-6 py-2 bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-lg hover:shadow-lg transition-all">
                 Начать проект
-              </button>
+              </a>
             </div>
 
             <button 

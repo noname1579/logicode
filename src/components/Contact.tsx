@@ -45,7 +45,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Адрес</h4>
-                    <p className="text-gray-600">Ростов-на-Дону, ул. Пушкинская199</p>
+                    <p className="text-gray-600">Ростов-на-Дону, ул. Пушкинская 199</p>
                   </div>
                 </div>
               </div>
@@ -57,7 +57,7 @@ const Contact = () => {
                     <a
                       key={index}
                       href="#"
-                      className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors"
+                      className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gradient-to-r from-blue-500 to-teal-500 hover:text-white transition-colors"
                     >
                       <Icon className="w-5 h-5" />
                     </a>
