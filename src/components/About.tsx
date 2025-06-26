@@ -49,7 +49,7 @@ const About = () => {
 
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-teal-400 rounded-2xl transform rotate-6"></div>
-              <div className="relative bg-white rounded-2xl p-8 shadow-xl rotate-">
+              <div className="relative bg-white rounded-2xl p-8 shadow-xl">
                 <div className="text-center">
                   <div className="text-6xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-4">
                     5+

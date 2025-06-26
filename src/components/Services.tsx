@@ -61,11 +61,6 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-
-                <button className="mt-6 text-blue-600 font-medium hover:text-blue-700 transition-colors group">
-                  Узнать больше
-                  <ChevronRight className="inline-block ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </button>
               </div>
             ))}
           </div>

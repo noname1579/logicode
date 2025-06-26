@@ -1,8 +1,9 @@
+
 const Footer = () => {
   return ( 
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-4 md:gap-20 gap-8">
             <div>
               <div className="flex">
                 <div className="flex items-center space-x-2 mb-6">
@@ -18,30 +19,10 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-6">Услуги</h4>
               <ul className="space-y-3 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Веб-разработка</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Мобильные приложения</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Цифровые решения</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Аналитика данных</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-lg font-semibold mb-6">Компания</h4>
-              <ul className="space-y-3 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">О нас</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Команда</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Карьера</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Блог</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-lg font-semibold mb-6">Поддержка</h4>
-              <ul className="space-y-3 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Помощь</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Документация</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Контакты</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Статус сервиса</a></li>
+                <li><a href="#services" className="hover:text-white transition-colors">Веб-разработка</a></li>
+                <li><a href="#services" className="hover:text-white transition-colors">Мобильные приложения</a></li>
+                <li><a href="#services" className="hover:text-white transition-colors">Цифровые решения</a></li>
+                <li><a href="#services" className="hover:text-white transition-colors">Аналитика данных</a></li>
               </ul>
             </div>
           </div>
